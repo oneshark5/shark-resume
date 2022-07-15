@@ -464,9 +464,12 @@ img{
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
-.skills__content,
-.languages__content{
+.skills__content{
   grid-template-columns: repeat(2, 1fr);
+}
+.languages__content{
+  grid-template-columns: repeat(1, 1fr);
+  overflow: hidden;
 }
 
 .skills__content,
@@ -622,7 +625,7 @@ img{
   }
 
   .languages__content{
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(1, max-content);
     column-gap: 3.5rem;
   }
 
