@@ -28,8 +28,8 @@
 
   /*========== Margenes ==========*/
   --mb-1: .5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
+  --mb-2: 1.1rem;
+  --mb-3: 1.4rem;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -110,7 +110,7 @@ body.scale-cv{
 }
 
 .scale-cv .section-title{
-  margin-bottom: .75rem;
+  margin-bottom: .65rem;
 }
 
 .scale-cv .resume__left,
@@ -214,7 +214,7 @@ img{
 }
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 1.5rem 0;
+  padding: 0;
 }
 
 .section-title{
@@ -592,6 +592,8 @@ img{
     grid-template-columns: .5fr 1fr;
     background-color: var(--container-color);
     box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+    /* 🦈 */
+    overflow: hidden;
   }
 
   .resume__left{
